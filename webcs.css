@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section2 .container {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 100px;
+}
+.section2 .container .items {
+  margin: 10px;
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 12px;
+  
+}
+.section2 .container .items .name {
+ 
+  text-align: center;
+  background-color: rgb(199, 170, 170);
+  height: 25px;
+  padding-top: 4px;
+  color: black;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+  width: 300px;
+  
+  
+}
+
+.section2 .container .items .img img {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  transition-duration: 0.8s;
+}
+.section2 .container .items .img {
+  overflow: hidden;
+  margin: 0;
+}
+.section2 .container .items:hover .img img {
+  transform: scale(1.2);
+  transition-duration: 0.8s;
+  border-radius: 12px;
+}
+.section2 .container .items .bundle {
+ display: flex;
+ height: max-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+  
+}
+.section2 .container .items .bundle .items1 img{
+  width: 200px;
+  height: 100px;
+ 
+}
+.section2 .container .items .bundle .items1 .name1{
+  width: 200px;
+  text-align: center;
+  background-color: rgb(199, 170, 170);
+  height: 25px;
+  padding-top: 4px;
+  color: black;
+  margin: 0;
+  padding: 0;
+  border-radius: 6px;
+
+}
+.section2 .container .items .prices{
+  display: flex;
+  margin: 0 -5px;
+ 
+}
+.section2 .container .items .prices .price_box1, .price_box2{
+  border: solid 1px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin: 0 5px;
+  -webkit-user-select: none;
+}
+.section2 .container .items .prices :hover {
+  background-color: green;
+  color: white;
+}
+.section2 .container .items .number .minus, .plus{
+  width:40px;
+  height:10px;
+  cursor: pointer;
+  
+  
+
+  
+ 
+}
+input{
+  height:24px;
+  width: 100px;
+  text-align: center;
+  font-size: 15px;
+  border:1px solid #ddd;
+  border-radius:4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.section2 .container .items .button{
+  border: solid 1px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(41, 123, 199);
+  cursor: pointer;
+ 
+}
+#Total{
+  color: rgb(4, 67, 46);
+}
